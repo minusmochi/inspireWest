@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Video Watch List",
-  "description": "Manage a list of videos to watch.",
+  "name": "Inspire West",
+  "description": "Get inspired with this chrome extension. Inspirational quotes from https://kanye.rest/",
   "version": "1.0",
   "browser_action": {
     "default_icon": "icon.png",

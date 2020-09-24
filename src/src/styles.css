@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+    background-color: #f5efff;
+    margin: 15px;
+    line-height: 1.5;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body .inspiration
+{
+    max-width: 600px;
+}
+
+button {
+    padding: 8px 12px;
+    background: none;
+    border: 2px solid #333333;
+    border-radius: 5px;
+    color: #333333;
+    transition: 200ms background-color;
+}
+
+button:hover {
+    background: white;
+    color: red;
+}
+
+#quote h1,
+#quote h2,
+#quote h3,
+#quote h4,
+#quote h5,
+#quote p {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    padding: 16px 24px;
+}
+
+#attribution {
+    text-align: right;    
+    padding: 4px 24px;
+}
+
+small:before {
+    content: "-";
+    padding-right: 8px;
+}
