@@ -1,10 +1,10 @@
 <div class="inspiration">
-<h1>Inspiration</h1>
-<div id="quote">
-  <h3>{{(inspiration | async)?.quote}}</h3>
-</div>
-<div id="attribution">
+  <h1>Inspiration</h1>
+  <div id="quote">
+    <h3>{{(inspiration | async)?.quote}}</h3>
+  </div>
+  <div id="attribution">
     <small>K. West</small>
-</div>
-<button>More inspiration</button>
+  </div>
+  <button (click)="moreInspiration()">More inspiration</button>
 </div>

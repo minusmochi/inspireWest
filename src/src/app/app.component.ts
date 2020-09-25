@@ -9,17 +9,17 @@ import { Quote } from './models/quote';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  inspiration:Observable<Quote>
-  constructor(private inspirationService: InspirationService){
+  inspiration: Observable<Quote>
+  constructor(private inspirationService: InspirationService) {
 
   }
 
   ngOnInit(): void {
-   this.inspiration = this.inspirationService
-    .get()
-
-    // this.inspiration.subscribe();
+    this.getInspiration();
   }
 
-
+  getInspiration() {
+    this.inspiration = this.inspirationService
+      .get();
+  }
 }
